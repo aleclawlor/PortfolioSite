@@ -1,0 +1,53 @@
+:root{
+    --accent: #F05454;
+    --navbarColor: #171717;
+    --backgroundColor: #171717;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    font-family: 'Manrope', sans-serif;
+    color: #fafafa
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.fullPage{
+    /* background-color: #EEEEEE; */
+    background-color: var(--backgroundColor);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.sectionHeader{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.sectionHeader span{
+    color: var(--accent)
+}
+
+.accent{
+    color: var(--accent)
+}
+
+.pageSpacing{
+    background-color: var(--backgroundColor);
+    width: 100vw;
+    height: 10vh;
+}

@@ -1,0 +1,23 @@
+#headerSection{
+    z-index: 5;
+    width: 65vw;
+    text-align: left;
+}
+
+#nameLine{
+    font-size: 105px;
+    font-weight: 300;
+    color: #fafafa
+}
+
+#name{
+    color: var(--accent);
+    font-size: 105px;
+}
+
+#title{
+    font-size: 38px;
+    font-weight: 300;
+    color: #fafafa;
+    margin-right: 10%;
+}

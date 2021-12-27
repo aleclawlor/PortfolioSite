@@ -1,0 +1,108 @@
+#about{
+    padding-top: 10vh;
+}
+
+#split{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#profilePic{
+    width: 280px;
+    height: 280px;
+    border-radius: 4px;
+    background-image: url('../assets/img/profilePic.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aboutSectionColumnLeft{
+    /* background-color: red; */
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vw;
+    z-index: 5;
+}
+
+#aboutSectionColumnRight{
+    /* background-color: green; */
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15vw;
+    z-index: 5;
+}
+
+#bioContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    width: 70%
+}
+
+#bio{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    font-weight: 400;
+}
+
+#skillsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.skillsTitle{
+    font-size: 30px;
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+#workHistorySection{
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+#workHistoryList li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+#workHistoryList li span{
+    font-size: 25px;
+}
+
+#educationSection{
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+
+#educationList li{
+    list-style: none;
+}
+
+#educationList li span{
+    font-size: 25px;
+}
+
+#icon{
+    margin-bottom: 30px;
+}
