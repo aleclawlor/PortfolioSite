@@ -88,6 +88,11 @@
 #projectsList li span{
     font-size: 24px;
 }
+
+#projectsList .githubLink{
+    margin-left: 5px;
+}
+
 .githubLink{
     transition: .25s;
     color: var(--accent);
@@ -95,7 +100,7 @@
 
 .githubLink:hover{
     transition: .25s;
-    color: rgba(0, 0, 0, .1)
+    color: #333
 }
 
 .githubLinkDisabled{
