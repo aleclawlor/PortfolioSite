@@ -43,7 +43,6 @@
 }
 
 /* If the screen is too small, don't disaply the navbar */
-
 @media screen and (max-width: 670px){
     
     #navbar{

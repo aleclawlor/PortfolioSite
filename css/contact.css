@@ -1,3 +1,7 @@
+#contact{
+    padding-top: 5%
+}
+
 #contactContainer{
     display: flex;
     flex-direction: column;
@@ -30,12 +34,11 @@
 }
 
 #inputsContainer textarea{
+    padding-left: 10px;
     width: 40vw;
     border: none;
     resize: none;
-    overflow: hidden;
     background-color: rgba(0, 0, 0, .1);
-    padding-left: 10px;
 }
 
 #socialsList{
@@ -61,6 +64,32 @@
     cursor: pointer;
     transition: .25s;
 }
+
+#submitButtonContainer{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#submitButton{
+    color: #fafafa;
+    border: 2px solid var(--accent);
+    border-radius: 2px;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #fafafa;
+    transition: .25s;
+    text-transform: uppercase;
+}
+
+#submitButton:hover{
+    background-color: var(--accent);
+    font-weight: bold;
+    cursor: pointer;
+    color: #333
+}
+
 
 @media screen and (max-width: 670px){
 

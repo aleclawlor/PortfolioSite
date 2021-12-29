@@ -21,9 +21,8 @@
     <link rel="stylesheet" href="./css/projects.css" type="text/css">
     <link rel="stylesheet" href="./css/contact.css" type="text/css">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css">
-    <link rel="stylesheet" href="/node_modules/reveal.js/dist/reveal.css">
-    <link rel="stylesheet" href="/node_modules/reveal.js/dist/theme/black.css">
     <script src="./js/menuBehavior.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <!-- <script type="module" src="./js/loadReveal.js"></script> -->
 </head>
 <body>
@@ -69,19 +68,32 @@
                         </div>
                     </div>
                     <div class="col-50" id="aboutSectionColumnRight">
-                        <div id="skillsContainer">
-                            <p id="bio">
-                                My name is Alec Lawlor, and I am a Software Developer who specializes in development with Python and JavaScript. 
-                                I will graduate from Boston College in May 2022 with a B.S. in Computer Science and Minor in Mathematics.
-                                My project and work experience spans the fields of <span class="accent">Artificial Intelligence</span>, <span class="accent">Web Development</span>, and <span class="accent">Computer Vision</span>.
-                                Despite having a formal education in Computer Science, most of my practical knowledge has come from self learning.
-                            </p>
-                            <br/>
-                            <p id="bio">
-                                Outside of coding, I enjoy exercising, reading, and playing music. I have played guitar my entire life and recently got into playing the Piano.
-                                I enjoy working on projects related to my interests, and I am currently researching how Artificial Intelligence can change the field of music
-                            </p>
-                        </div>
+                        <ul id="introList">
+                            <li>
+                                <div>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <p>
+                                        Software Developer and Freelance Coder with a focus on development with Python and JavaScript
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <p>
+                                        Work and project experience in the fields of Artificial Intelligence, Computer Vision, and Web Development
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="fas fa-chevron-right"></i>
+                                    <p>
+                                        Part-time musician and music theorist with the ability to play the Piano and Guitar
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div id="educationSection">
@@ -124,7 +136,7 @@
             <div class="pageSpacing"></div>
             <div class="fullPage" id="projects">
                 <h3 class="sectionHeader"><span>03.</span> Projects</h3>
-                <div">
+              
                     <div class="leftShowcase">
                         <div id="projectLeft">
                             <h3>Circa.Me 
@@ -217,9 +229,34 @@
                 <div id="contactContainer">
                     <h3 class="sectionHeader"><span>04.</span> Contact Me</h3>
                     <div id="inputsContainer">
-                        <input name="" type="text" placeholder="Name">
-                        <input name="email" type="email" placeholder="Email">
-                        <textarea rows="10" cols="50" placeholder="Your Message"></textarea>
+                        <input 
+                            name="name" 
+                            type="text" 
+                            placeholder="Name"
+                            id="nameInput"
+                            value=""
+                            autocomplete="off"
+                        >
+                        <input 
+                            name="email" 
+                            type="email" 
+                            placeholder="Email"
+                            id="emailInput"
+                            autocomplete="off"
+                        >
+                        <textarea 
+                            placeholder="Your Message Here"
+                            rows="8" 
+                            cols="50" 
+                            id="emailBodyInput"
+                        ></textarea>
+                    </div>
+                    <div id="submitButtonContainer">
+                        <a 
+                            id="submitButton"
+                        >
+                            Submit 
+                        </a>
                     </div>
                     <div id="socialsList">
                         <a>
@@ -240,4 +277,5 @@
         </div>
     </div>
 </body>
+<script src="./js/mailer.js"></script>
 </html>
