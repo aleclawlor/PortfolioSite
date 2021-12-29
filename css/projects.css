@@ -80,15 +80,24 @@
     justify-content: center;
     align-items: center;
     margin-top: 15%;
-    width: 100vw;
+    width: 60vw;
+    background-color: rgba(0, 0, 0, .1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
+    height: 70vh;
+    
 }
 
 #projectsList{
+    width: 95%;
     list-style: none;
-    width: 50vw
 }
 
 #projectsList li{
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
