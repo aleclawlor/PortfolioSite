@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 2vh;
 }
 
 #inputsContainer input{
@@ -28,7 +29,7 @@
     border: none;
     margin-bottom: 4px;
     resize: none;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .05);
     height: 35px;
     padding-left: 10px;
 }
@@ -38,7 +39,7 @@
     width: 40vw;
     border: none;
     resize: none;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .05);
 }
 
 #socialsList{
@@ -63,6 +64,16 @@
     color: #333;
     cursor: pointer;
     transition: .25s;
+}
+
+#form{
+    width: 50vw;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
 }
 
 #submitButtonContainer{
