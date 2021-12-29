@@ -84,6 +84,7 @@
 }
 
 #submitButton:hover{
+    transition: .25s;
     background-color: var(--accent);
     font-weight: bold;
     cursor: pointer;

@@ -6,7 +6,7 @@
 
 #nameLine{
     font-size: 115px;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--textColor)
 }
 
@@ -16,7 +16,7 @@
 
 #title{
     font-size: 40px;
-    font-weight: 350;
+    font-weight: 300;
     color: var(--textColor);
     margin-right: 10%;
 }
