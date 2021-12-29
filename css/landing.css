@@ -1,6 +1,6 @@
 #headerSection{
     z-index: 5;
-    width: 65vw;
+    width: 70vw;
     text-align: left;
 }
 
@@ -12,12 +12,11 @@
 
 #name{
     color: var(--accent);
-    font-size: 105px;
 }
 
 #title{
-    font-size: 38px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 350;
     color: var(--textColor);
     margin-right: 10%;
 }
