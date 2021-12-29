@@ -1,7 +1,19 @@
 :root{
-    --accent: #F05454;
+
+    /* original red and black */
+    /* --accent: #F05454;
     --navbarColor: #171717;
-    --backgroundColor: #171717;
+    --backgroundColor: #171717; */
+
+
+    /* kinda cool */
+    /* --accent: #fff;
+    --backgroundColor: #A0AECD;
+    --textColor: #333 */
+
+    --accent: #5cdb95;
+    --backgroundColor: #131313;
+    --textColor: #fff
 }
 
 html{
@@ -15,7 +27,7 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     font-family: 'Manrope', sans-serif;
-    color: #fafafa;
+    color: var(--textColor);
     margin: 0;
     padding: 0;
     -moz-user-select: none;
