@@ -5,8 +5,8 @@
 }
 
 #name{
-    font-size: 125px;
-    font-weight: 400;
+    font-size: 120px;
+    font-weight: 300;
     color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 5px;
