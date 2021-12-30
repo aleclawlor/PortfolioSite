@@ -30,6 +30,7 @@ body {
     color: var(--textColor);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     -moz-user-select: none;
    -khtml-user-select: none;
    -webkit-user-select: none;

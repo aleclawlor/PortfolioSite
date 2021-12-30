@@ -16,15 +16,24 @@
 
 #title{
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--textColor);
     margin-right: 10%;
 }
 
 @media screen and (max-width: 670px){
     
+    #headerSection{
+        width: 80vw
+    }
+
     #nameLine{
-        font-size: 100px;
+        font-size: 85px;
+        line-height: 100px;
+    }
+
+    #title{
+        font-size: 30px;
     }
 
 }

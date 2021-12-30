@@ -20,7 +20,7 @@
     background-position: center;
     background-repeat: no-repeat;
     box-sizing: border-box;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, .5);
 }
 
 #aboutSectionColumnLeft{
@@ -79,11 +79,12 @@
     flex-direction: column;
     margin-top: 5%;
     background-color: transparent;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
+    padding-right: 30px;
 }
 
 #workHistoryList li{
@@ -101,11 +102,12 @@
     flex-direction: column;
     margin-top: 5%;
     background-color: transparent;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
+    padding-right: 30px;
 }
 
 

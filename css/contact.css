@@ -20,11 +20,11 @@
 }
 
 #inputsContainer input{
-    width: 40vw;
+    width: 80%;
     border: none;
     margin-bottom: 4px;
     resize: none;
-    background-color: rgba(0, 0, 0, .05);
+    background-color: rgba(0, 0, 0, .03);
     height: 35px;
     padding-left: 10px;
 }
@@ -32,10 +32,10 @@
 #inputsContainer textarea{
     padding-left: 10px;
     padding-top: 4px;
-    width: 40vw;
+    width: 80%;
     border: none;
     resize: none;
-    background-color: rgba(0, 0, 0, .05);
+    background-color: rgba(0, 0, 0, .03);
 }
 
 #socialsList{
@@ -102,11 +102,11 @@
 @media screen and (max-width: 670px){
 
     #inputsContainer input{
-        width: 65vw;
+        width: 90%;
     }
     
     #inputsContainer textarea{
-        width: 65vw;
+        width: 90%;
     }
 
 }
