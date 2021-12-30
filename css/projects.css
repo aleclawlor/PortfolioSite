@@ -116,7 +116,7 @@
 
 .githubLink:hover{
     transition: .25s;
-    color: rgba(0, 0, 0, .3)
+    color: rgba(0, 0, 0, .2)
 }
 
 .githubLinkDisabled{

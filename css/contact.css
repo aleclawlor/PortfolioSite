@@ -57,7 +57,7 @@
     font-size: 30px;
     text-decoration: none;
     margin: 5%;
-    color: #333;
+    color: rgba(0, 0, 0, .2);
     cursor: pointer;
     transition: .25s;
 }
@@ -79,7 +79,7 @@
 }
 
 #submitButton{
-    border: 2px solid var(--secondaryColor);
+    border: 3px solid var(--secondaryColor);
     border-radius: 2px;
     padding: 8px;
     text-decoration: none;
@@ -93,7 +93,6 @@
 #submitButton:hover{
     transition: .25s;
     background-color: var(--secondaryColor);
-    font-weight: bold;
     cursor: pointer;
     color: #333
 }
