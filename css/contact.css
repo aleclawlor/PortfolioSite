@@ -102,7 +102,8 @@
 @media screen and (max-width: 670px){
 
     #form{
-        width: 70vw
+        width: 70vw;
+        margin-bottom: 10%;
     }
 
     #inputsContainer input{
