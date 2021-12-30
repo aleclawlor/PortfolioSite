@@ -20,3 +20,11 @@
     color: var(--textColor);
     margin-right: 10%;
 }
+
+@media screen and (max-width: 670px){
+    
+    #nameLine{
+        font-size: 100px;
+    }
+
+}

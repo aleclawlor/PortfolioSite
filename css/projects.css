@@ -3,8 +3,8 @@
 }
 
 .rightShowcase {
-    width: 50vw;
-    height: 55vh;
+    width: 65vw;
+    height: 60vh;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -16,8 +16,8 @@
 }
 
 .leftShowcase {
-    width: 50vw;
-    height: 55vh;
+    width: 65vw;
+    height: 60vh;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@
 
 #projectLeft{
     height: 100%;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,20 +54,20 @@
 
 #projectRight{
     height: 100%;
-    width: 50%;
-    padding: 10px;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    overflow: hidden
 }
 
 #projectRight img{
-    width: 120%;
-    height: 120%;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #otherProjectsHeader{
@@ -79,7 +79,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 60vw;
     background-color: transparent;
     padding-top: 10px;
