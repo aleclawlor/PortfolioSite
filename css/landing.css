@@ -1,7 +1,7 @@
 #headerSection{
     z-index: 5;
     width:70vw;
-    text-align: center;
+    text-align: left;
 }
 
 #name{
@@ -9,7 +9,7 @@
     font-weight: 400;
     color: var(--textColor);
     text-transform: uppercase;
-    letter-spacing: 12px;
+    letter-spacing: 2px;
 }
 
 #name{
@@ -23,7 +23,7 @@
 }
 
 #title{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     color: var(--textColor);
     
@@ -35,13 +35,9 @@
         width: 80vw
     }
 
-    #nameLine{
+    #name{
         font-size: 105px;
         line-height: 130px;
-    }
-
-    #title{
-        font-size: 30px;
     }
 
 }
@@ -52,8 +48,8 @@
         width: 80vw
     }
 
-    #nameLine{
-        font-size: 85px;
+    #name{
+        font-size: 80px;
         line-height: 100px;
     }
 

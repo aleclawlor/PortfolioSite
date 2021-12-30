@@ -12,8 +12,8 @@
     --textColor: #333 */
 
     --accent: #aab5f5;
-    --backgroundColor: #171717;
-    --textColor: #fff
+    --backgroundColor: #fff;
+    --textColor: #333
 }
 
 html{
