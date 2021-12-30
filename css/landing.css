@@ -2,19 +2,21 @@
     z-index: 5;
     width:70vw;
     text-align: left;
-    transform: translate(0, -10%);
 }
 
 #name{
     font-size: 115px;
     font-weight: 400;
-    color: var(--textColor);
+    color: var(--accent);
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
-#name{
-    color: var(--accent);
+#titleSeparator{
+    width: 15%;
+    background-color: var(--secondaryColor);
+    margin-left: 0;
+    height: 4px;
 }
 
 #hello{
@@ -47,7 +49,8 @@
 @media screen and (max-width: 670px){
     
     #headerSection{
-        width: 80vw
+        width: 75vw;
+        transform: translate(0, -20%);
     }
 
     #name{
