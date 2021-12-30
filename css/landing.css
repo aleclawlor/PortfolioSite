@@ -6,7 +6,7 @@
 
 #nameLine{
     font-size: 120px;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--textColor)
 }
 
@@ -19,6 +19,23 @@
     font-weight: 400;
     color: var(--textColor);
     margin-right: 10%;
+}
+
+@media screen and (max-width: 900px){
+    
+    #headerSection{
+        width: 80vw
+    }
+
+    #nameLine{
+        font-size: 105px;
+        line-height: 130px;
+    }
+
+    #title{
+        font-size: 30px;
+    }
+
 }
 
 @media screen and (max-width: 670px){
