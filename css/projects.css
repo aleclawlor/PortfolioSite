@@ -87,7 +87,7 @@
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
-    height: 70vh;
+    padding-right: 25px;
     
 }
 
@@ -152,5 +152,9 @@
         display: none
     }
 
+    #projectsList li{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
 
 }
