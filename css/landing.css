@@ -2,6 +2,7 @@
     z-index: 5;
     width:70vw;
     text-align: left;
+    font-family: brandon-grotesque, sans-serif;
 }
 
 #name{
@@ -9,7 +10,8 @@
     font-weight: 300;
     color: var(--accent);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    line-height: 145px;
 }
 
 #titleSeparator{
@@ -21,7 +23,7 @@
 
 #hello{
     font-size: 45px;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--textColor);
 }
 

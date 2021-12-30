@@ -8,11 +8,12 @@
     background-color: transparent;
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
     z-index: 0;
-    transform: translate(15vw, 0);
+    transform: translate(13vw, 0);
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
+    margin-top: 15vh;
+    margin-bottom:8vh;
 }
 
 .leftShowcase {
@@ -21,11 +22,12 @@
     background-color: transparent;
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
     z-index: 0;
-    transform: translate(-15vw, 0);
+    transform: translate(-13vw, 0);
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
+    margin-top: 15vh;
+    margin-bottom:8vh;
     
 }
 
@@ -79,7 +81,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
     width: 60vw;
     background-color: transparent;
     padding-top: 10px;
@@ -88,6 +89,7 @@
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
     padding-right: 25px;
+    margin-top: 15vh;
     
 }
 

@@ -24,7 +24,7 @@
     border: none;
     margin-bottom: 4px;
     resize: none;
-    background-color: rgba(0, 0, 0, .03);
+    background-color: rgba(0, 0, 0, .02);
     height: 35px;
     padding-left: 10px;
 }
@@ -35,7 +35,7 @@
     width: 80%;
     border: none;
     resize: none;
-    background-color: rgba(0, 0, 0, .03);
+    background-color: rgba(0, 0, 0, .02);
 }
 
 #socialsList{

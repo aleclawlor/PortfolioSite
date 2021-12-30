@@ -53,9 +53,8 @@
 
 #introList{
     list-style: none;
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
-    font-weight: 400;
 }
 
 #introList li{

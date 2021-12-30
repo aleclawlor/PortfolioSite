@@ -10,6 +10,7 @@
     background-color: var(--backgroundColor);
     box-sizing: border-box;
     padding-bottom: 5px;
+    font-family: brandon-grotesque, sans-serif;
 }
 
 #navbar a{
