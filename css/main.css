@@ -11,15 +11,16 @@
     --backgroundColor: #A0AECD;
     --textColor: #333 */
 
-    --accent: #484b6a;
-    --backgroundColor: #fafafa;
+    --accent: #06294d;
+    --backgroundColor: #ffffff;
     --textColor: #333;
     --secondaryColor: #57bc90
 }
 
 html{
     margin: 0;
-    padding: 0
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -58,8 +59,10 @@ body::-webkit-scrollbar {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-weight: 400;
+    font-weight: 500;
 }
+
+
 
 .sectionHeader span{
     color: var(--accent)

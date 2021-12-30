@@ -53,7 +53,7 @@
 
 #introList{
     list-style: none;
-    font-size: 23px;
+    font-size: 24px;
     margin: 0;
     font-weight: 400;
 }
@@ -70,7 +70,7 @@
 
 #introList li div i{
     margin-right: 20px;
-    color: var(--accent)
+    color: var(--secondaryColor)
 }
 
 #workHistorySection{

@@ -79,7 +79,7 @@
 }
 
 #submitButton{
-    border: 2px solid var(--accent);
+    border: 2px solid var(--secondaryColor);
     border-radius: 2px;
     padding: 8px;
     text-decoration: none;
@@ -92,7 +92,7 @@
 
 #submitButton:hover{
     transition: .25s;
-    background-color: var(--accent);
+    background-color: var(--secondaryColor);
     font-weight: bold;
     cursor: pointer;
     color: #333

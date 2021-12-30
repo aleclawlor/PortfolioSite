@@ -116,16 +116,16 @@
 
 .githubLink:hover{
     transition: .25s;
-    color: #333
+    color: rgba(0, 0, 0, .3)
 }
 
 .githubLinkDisabled{
     margin-left: 5px;
-    color: #333;
+    color: rgba(0, 0, 0, .05);
 }
 
 .githubLinkDisabled:hover{
-    color: #333;
+    color: rgba(0, 0, 0, .05)
 }
 
 @media screen and (max-width: 1200px){

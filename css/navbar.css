@@ -25,21 +25,25 @@
 }
 
 #navbar a:hover{
-    color: #333;
     cursor: pointer;
     transition: .25s;
+    color: rgba(0, 0, 0, .3);
 }
 
 #resumeButton {
     margin-top: 1%;
-    border: 3px solid var(--accent);
+    border: 3px solid var(--secondaryColor);
     border-radius: 2px;
     padding: 8px;
 }
 
 #resumeButton:hover{
-    background-color: var(--accent);
-    font-weight: bold;
+    background-color: var(--secondaryColor);
+    color: var(--textColor)
+}
+
+#resumeButton a:hover{
+    color:var(--textColor)
 }
 
 /* If the screen is too small, don't disaply the navbar */
