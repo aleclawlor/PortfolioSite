@@ -12,13 +12,11 @@
     --textColor: #333 */
 
     --accent: #aab5f5;
-    --backgroundColor: #12151f;
+    --backgroundColor: #171717;
     --textColor: #fff
 }
 
 html{
-    scroll-behavior: smooth;
-    font-family: 'Manrope', sans-serif;
     margin: 0;
     padding: 0
 }
@@ -26,7 +24,9 @@ html{
 body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
     color: var(--textColor);
     margin: 0;
     padding: 0;
