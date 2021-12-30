@@ -2,6 +2,7 @@
     z-index: 5;
     width:70vw;
     text-align: left;
+    transform: translate(0, -10%);
 }
 
 #name{
@@ -9,7 +10,7 @@
     font-weight: 400;
     color: var(--textColor);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 #name{
@@ -25,6 +26,7 @@
 #title{
     font-size: 30px;
     font-weight: 400;
+    font-style: oblique;
     color: var(--textColor);
     
 }
