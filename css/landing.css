@@ -67,3 +67,12 @@
     }
 
 }
+
+@media screen and (max-width: 500px){
+    
+    #headerSection{
+        width: 70vw;
+        transform: translate(-5%, -20%);
+    }
+
+}
