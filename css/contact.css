@@ -101,6 +101,10 @@
 
 @media screen and (max-width: 670px){
 
+    #form{
+        width: 70vw
+    }
+
     #inputsContainer input{
         width: 90%;
     }
