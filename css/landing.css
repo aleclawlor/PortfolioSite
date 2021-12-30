@@ -49,15 +49,13 @@
 @media screen and (max-width: 670px){
     
     #headerSection{
-        width: 75vw;
+        width: 70vw;
         transform: translate(0, -20%);
-        text-align: center;
     }
 
     #name{
-        font-size: 80px;
+        font-size: 75px;
         line-height: 100px;
-        text-align: center;
     }
 
     #title{
@@ -66,7 +64,6 @@
 
     #titleSeparator{
         width: 30%;
-        margin-left: 35%;
     }
 
 }
