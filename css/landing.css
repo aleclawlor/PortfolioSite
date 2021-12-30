@@ -6,8 +6,8 @@
 
 #nameLine{
     font-size: 120px;
-    font-weight: 400;
-    color: var(--textColor)
+    font-weight: 300;
+    color: var(--textColor);
 }
 
 #name{
