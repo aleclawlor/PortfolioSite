@@ -51,6 +51,7 @@
     #headerSection{
         width: 75vw;
         transform: translate(0, -20%);
+        text-align: center;
     }
 
     #name{
@@ -60,6 +61,11 @@
 
     #title{
         font-size: 30px;
+    }
+
+    #titleSeparator{
+        width: 30%;
+        margin-left: 35%;
     }
 
 }
