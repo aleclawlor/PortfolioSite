@@ -6,11 +6,11 @@
 }
 
 #name{
-    font-size: 115px;
+    font-size: 110px;
     font-weight: 300;
     color: var(--accent);
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     line-height: 150px;
 }
 
