@@ -1,3 +1,5 @@
+import keys from '../config/keys.js'
+
 const nameInput = document.getElementById('nameInput')
 const emailInput = document.getElementById('emailInput')
 const bodyInput = document.getElementById('emailBodyInput')
@@ -48,7 +50,7 @@ const sendEmail = () => {
     Email.send({
         Host: 'smtp.elasticemail.com',
         Username: 'acl.lawlor@gmail.com',
-        Password: '9D16E99F9534923F63DBE562068A92E75397',
+        Password: keys.ELASTIC_EMAIL_PASSWORD,
         To: 'lawlorab@bc.edu',
         From: 'acl.lawlor@gmail.com',
         Subject: `IMPORTANT: Portfolio Site Message from ${name} (Email: ${email})`,
