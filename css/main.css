@@ -58,7 +58,7 @@ body::-webkit-scrollbar {
 .sectionHeader{
     font-size: 40px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-weight: 500;
     font-family: brandon-grotesque, sans-serif;
 }
