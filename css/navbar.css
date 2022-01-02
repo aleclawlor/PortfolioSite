@@ -27,7 +27,7 @@
 #navbar a:hover{
     cursor: pointer;
     transition: .25s;
-    color: rgba(0, 0, 0, .3);
+    color: #333;
 }
 
 #resumeButton {

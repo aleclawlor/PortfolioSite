@@ -1,36 +1,50 @@
 #headerSection{
+    margin-top: 0%;
     z-index: 5;
     width:70vw;
     text-align: left;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: proxima-nova, sans-serif;
 }
 
-#name{
-    font-size: 110px;
-    font-weight: 300;
-    color: var(--accent);
-    text-transform: uppercase;
-    letter-spacing: 7px;
-    line-height: 150px;
+#period{
+    color: var(--textColor);
+    font-size: 80px;
+    
 }
 
 #titleSeparator{
-    width: 15%;
+    width: 10%;
     background-color: var(--secondaryColor);
+    /* background-color: #fff; */
+    border: none;
     margin-left: 0;
-    height: 4px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#name{
+    font-size: 130px;
+    font-weight: 400;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 140px;
 }
 
 #hello{
     font-size: 45px;
     font-weight: 300;
     color: var(--textColor);
+    letter-spacing: 1px;
 }
 
 #title{
-    font-size: 30px;
-    font-weight: 400;
-    font-style: oblique;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 300;
     color: var(--textColor);
     
 }
@@ -44,6 +58,10 @@
     #name{
         font-size: 105px;
         line-height: 130px;
+    }
+
+    #title{
+        line-height: 40px;
     }
 
 }
