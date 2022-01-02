@@ -96,6 +96,7 @@
     
     #headerSection{
         width: 70vw;
+        transform: translate(-15%, 0);
     }
 
     #name{
