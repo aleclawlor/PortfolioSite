@@ -30,7 +30,7 @@
     font-weight: 400;
     color: var(--accent);
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     line-height: 140px;
 }
 
@@ -53,6 +53,10 @@
     
     #headerSection{
         width: 80vw
+    }
+
+    #titleSeparator{
+        display: none;
     }
 
     #name{
@@ -79,7 +83,7 @@
     }
 
     #title{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #titleSeparator{
@@ -92,12 +96,11 @@
     
     #headerSection{
         width: 70vw;
-        transform: translate(-5%, -20%);
     }
 
     #name{
-        font-size: 52px;
-        line-height: 70px;
+        font-size: 80px;
+        line-height: 90px;
     }
 
     #hello{
