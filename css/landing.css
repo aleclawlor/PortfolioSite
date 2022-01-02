@@ -96,11 +96,11 @@
     
     #headerSection{
         width: 70vw;
-        transform: translate(-5%, -3h);
+        transform: translate(-5%, -3vh);
     }
 
     #name{
-        font-size: 80px;
+        font-size: 75px;
         line-height: 90px;
     }
 
