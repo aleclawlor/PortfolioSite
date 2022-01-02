@@ -96,12 +96,12 @@
     
     #headerSection{
         width: 70vw;
-        transform: translate(-5%, -7vh);
+        transform: translate(-5%, -8vh);
     }
 
     #name{
         font-size: 75px;
-        line-height: 90px;
+        line-height: 70px;
     }
 
     #hello{
