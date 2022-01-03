@@ -9,7 +9,7 @@ dotenv.config()
 // send an email
 router.post('/sendEmail', async(req, res) => {
 
-    console.log("Req is: ", req)
+    console.log("User attempts to send an email")
 
     // destructure request object
     const { name, email, body } = req.body

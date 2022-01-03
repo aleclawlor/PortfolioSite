@@ -20,7 +20,6 @@ emailInput.addEventListener('input', e => {
 bodyInput.addEventListener('input', e => {
 
     const inputValue = e.target.value 
-    console.log('input value: ', inputValue)
     bodyInput.setAttribute('value', inputValue)
 
 })
