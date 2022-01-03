@@ -1,5 +1,3 @@
-import keys from '../config/keys.js'
-
 const nameInput = document.getElementById('nameInput')
 const emailInput = document.getElementById('emailInput')
 const bodyInput = document.getElementById('emailBodyInput')
@@ -30,47 +28,19 @@ bodyInput.addEventListener('input', e => {
 
 // get the submit button under contact form and bind sendEmail function to it
 const submitButton = document.querySelector('#submitButton')
-submitButton.addEventListener('click', e => {
-
-    sendEmail()
-
-})
-
-
-// send email using SMTP
-const sendEmail = () => {
+submitButton.addEventListener('click', async(e) => {
 
     const email = emailInput.value
     const name = nameInput.value 
-    const body = bodyInput.value    
-    console.log(email, name, body)
+    const body = bodyInput.value  
 
-    // port: 2525
-
-    Email.send({
-        Host: 'smtp.elasticemail.com',
-        Username: 'acl.lawlor@gmail.com',
-        Password: keys.ELASTIC_EMAIL_PASSWORD,
-        To: 'lawlorab@bc.edu',
-        From: 'acl.lawlor@gmail.com',
-        Subject: `IMPORTANT: Portfolio Site Message from ${name} (Email: ${email})`,
-        Body: body
-    }).then(message => {
-        console.log(message)
-
-        if (message == "OK"){
-
-            // clear the value of the fields after the email is sent
-            nameInput.value=""
-            emailInput.value=""
-            bodyInput.value=""
-
-            alert("Message Sent Successfully")
-        }
-
-        else{
-            alert("There was an issue sending the message. Please try again later.")
-        }
+    const res = await axios.post('/api/email/sendEmail', {
+        name: name,
+        email: email,
+        body: body
     })
 
-}
+    // use the response object to control what to show the user
+    console.log(res)
+
+})
