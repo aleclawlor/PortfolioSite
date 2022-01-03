@@ -1,4 +1,7 @@
 const express = require('express')
+const http = require('http')
+const fs = require('fs')
+const path = require('path')
 const cors = require('cors')
 const routes = require('./routes/index')
 
@@ -12,17 +15,20 @@ app
 
 const PORT = process.env.PORT || 8000 
 
-if(process.env.NODE_ENV === 'production'){
+// if(process.env.NODE_ENV === 'production'){
 
-    app.use(express.static('portfolio-site'))
+//     app.use(express.static('portfolio-site'))
 
-    app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'index.html'))
-    })
-}
+//     app.get('*', (req, res) => {
+//         res.sendFile(path.resolve(__dirname, 'index.html'))
+//     })
+// }
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './index.html'))
+})
 
 app.listen(PORT, () => {
-
-    console.log("Listening on port: ", PORT)
-    
+    console.log("Listening on port: ", PORT)    
 })
+
