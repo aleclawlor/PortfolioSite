@@ -24,8 +24,7 @@ const PORT = process.env.PORT || 8000
 //     })
 // }
 
-app.use(express.static('portfolio-site'))
-
+app.use('/', express.static(path.join(__dirname, '../')))
 app.get('/', (req, res) => {
     
     res.sendFile(path.join(__dirname, '../index.html'))
