@@ -81,7 +81,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60vw;
+    width: 65vw;
     background-color: transparent;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -94,21 +94,26 @@
 }
 
 #projectsList{
-    width: 95%;
     list-style: none;
 }
 
 #projectsList li{
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 16px;
 }
 
 #projectsList li span{
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 300;
 }
 
 #projectsList .githubLink{
     margin-left: 5px;
+}
+
+#projectsList p{
+    margin-top: 10px;
 }
 
 .githubLink{
@@ -139,27 +144,6 @@
     }
 }
 
-/* @media screen and (max-width: 900px){
-    
-    #projectLeft{
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        border-radius: 5px;
-    }
-
-    #projectRight{
-        display: none
-    }
-
-    #projectsList li{
-        margin-top: 15%;
-        margin-bottom: 15%;
-    }
-
-} */
 
 @media screen and (max-width: 900px){
     
