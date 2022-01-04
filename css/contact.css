@@ -78,6 +78,12 @@
     margin-bottom: 5vh;
 }
 
+#submitButtonContainer p {
+
+    font-size: 18px;
+
+}
+
 #submitButton{
     border: 3px solid var(--secondaryColor);
     border-radius: 2px;
@@ -95,6 +101,23 @@
     background-color: var(--secondaryColor);
     cursor: pointer;
     color: #333
+}
+
+
+#emailStatusAlert{
+    position: absolute;
+    background-color: #111;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40vw;
+    height: 20vh;
+    font-size: 24px;
+    padding: 5px;
+    transform: translate(0, -35vh);
+    border-radius: 3px;
 }
 
 
