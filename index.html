@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@200;400&family=Montserrat:wght@500&family=Open+Sans&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/lft4bra.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <link rel="stylesheet" href="./css/landing.css" type="text/css">
@@ -26,9 +27,13 @@
     <script src="./js/menuBehavior.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- <script type="module" src="./js/loadReveal.js"></script> -->
 </head>
 <body>
+    <script>
+        AOS.init();
+    </script>
     <div class="container-fluid">
         <div class="row">
             <div class="fullPage" id="landing">
@@ -63,16 +68,16 @@
             <div class="pageSpacing"></div>
             <div class="fullPage" id="about">
                 <div class="row">
-                    <h3 class="sectionHeader"><span>02.</span> About Me</h3>
+                    <h3 data-aos="fade-down" class="sectionHeader"><span>02.</span> About Me</h3>
                 </div>
                 <br></br>
                 <div class="row" id="split">
-                    <div class="col-50" id="aboutSectionColumnLeft">
+                    <div class="col-50" id="aboutSectionColumnLeft" data-aos="fade-right" data-aos-duration="800">
                         <div id="bioContainer">
                             <div id="profilePic"></div>
                         </div>
                     </div>
-                    <div class="col-50" id="aboutSectionColumnRight">
+                    <div class="col-50" id="aboutSectionColumnRight" data-aos="fade-left" data-aos-duration="800">
                         <ul id="introList">
                             <li>
                                 <div>
@@ -101,7 +106,7 @@
                         </ul>
                     </div>
                 </div>
-                <div id="educationSection">
+                <div id="educationSection" data-aos="fade-up" data-aos-duration="800">
                     <ul id="educationList">
                         <li class="accent">
                             <i class="fas fa-graduation-cap fa-3x" id="icon"></i>
@@ -113,7 +118,7 @@
                         </li>
                     </ul>
                 </div>
-                <div id="workHistorySection">
+                <div id="workHistorySection" data-aos="fade-up" data-aos-duration="800">
                     <ul id="workHistoryList">
                         <li class="accent" id="icon">
                             <i class="fas fa-briefcase fa-3x"></i>
@@ -140,9 +145,14 @@
         <div class="row">
             <div class="pageSpacing"></div>
             <div class="fullPage" id="projects">
-                <h3 class="sectionHeader"><span>03.</span> Projects</h3>
+                <h3 data-aos="fade-down" class="sectionHeader"><span>03.</span> Projects</h3>
               
-                    <div class="leftShowcase">
+                    <div 
+                        class="leftShowcase" 
+                        data-aos="fade-right" 
+                        data-aos-duration="800"
+                        data-aos-delay="150"
+                    >
                         <div id="projectLeft">
                             <h3>Circa.Me 
                                 <a target="_blank" href="https://github.com/aleclawlor/BC-Social-Network" class="githubLink">
@@ -158,7 +168,12 @@
                             <img src="https://images.pexels.com/photos/1229753/pexels-photo-1229753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"/>
                         </div>
                     </div>
-                    <div class="rightShowcase">
+                    <div 
+                        class="rightShowcase" 
+                        data-aos="fade-left" 
+                        data-aos-duration="800"
+                        data-aos-delay="150"
+                    >
                         <div class="col" id="projectLeft">
                             <h3>SecureVision
                                 <a target="_blank" href="https://github.com/aleclawlor/SecureVisionFinal" class="githubLink">
@@ -173,7 +188,12 @@
                             <img src="./assets/img/sv_preview.png"/>
                         </div>
                     </div>
-                    <div class="leftShowcase">
+                    <div 
+                        class="leftShowcase" 
+                        data-aos="fade-right" 
+                        data-aos-duration="800"
+                        data-aos-delay="150"
+                    >
                         <div class="col" id="projectLeft">
                             <h3>Waste Classification
                                 <a target="_blank" href="https://github.com/aleclawlor/computer-vision-final-project" class="githubLink">
@@ -188,7 +208,7 @@
                             <img src="./assets/img/cv_preview.png"/>
                         </div>
                     </div>
-                    <div id="otherProjectsSection">
+                    <div id="otherProjectsSection" data-aos="fade-up" data-aos-duration="800">
                         <!-- <h3 id="otherProjectsHeader">Other projects I've worked on include: </h3> -->
                         <ul id="projectsList">
                             <li>
@@ -235,8 +255,8 @@
                     <p id="emailStatusText">Email Sent Succesfully. Thanks for the Message!</p>
                 </div> -->
                 <div id="contactContainer">
-                    <h3 class="sectionHeader"><span>04.</span> Contact Me</h3>
-                    <div id="form">
+                    <h3 data-aos="fade-down" class="sectionHeader"><span>04.</span> Contact Me</h3>
+                    <div id="form" data-aos="fade-right" data-aos-duration="800">
                         <div id="inputsContainer">
                             <input 
                                 name="name" 
@@ -268,7 +288,7 @@
                             </a>
                         </div>
                     </div>
-                    <div id="socialsList">
+                    <div id="socialsList" data-aos="fade-left" data-aos-duration="800">
                         <a target="_blank" href="https://www.linkedin.com/in/aleclawlor/">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
