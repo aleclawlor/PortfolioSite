@@ -4,6 +4,7 @@
     width:70vw;
     text-align: left;
     font-family: proxima-nova, sans-serif;
+    transform: translate(0, -5vh);
 }
 
 #period{
@@ -14,13 +15,11 @@
 
 #titleSeparator{
     width: 10%;
-    background-color: var(--secondaryColor);
-    /* background-color: #fff; */
-    border: none;
+    background-color: var(--secondaryColor);    border: none;
     margin-left: 0;
-    height: 3px;
+    height: 4px;
     background-color: #fff;
-    margin: 0;
+    margin-bottom: 20;
     padding: 0;
    
 }
@@ -79,8 +78,8 @@
     }
 
     #name{
-        font-size: 85px;
-        line-height: 80px;
+        font-size: 90px;
+        line-height: 100px;
     }
 
     #title{
@@ -88,10 +87,14 @@
         line-height: 30px;
     }
 
+    #period{
+        display: none;
+    }
+
     #titleSeparator{
         width: 20%;
-        margin-top: .5em;
-        margin-bottom: .25em;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
     }
 
 }
