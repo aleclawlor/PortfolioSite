@@ -11,11 +11,10 @@
     --backgroundColor: #A0AECD;
     --textColor: #333 */
 
-    --accent: #cf6766;
-    --backgroundColor: #222;
-    --textColor: #fafafa;
-    --secondaryColor: #57bc90;
-    --secondaryColor: #cf6766;
+    --accent: #8ee4af;
+    --backgroundColor: #19181a;
+    --textColor: #f9f9f9;
+    --secondaryColor: #8ee4af;
 }
 
 html{
