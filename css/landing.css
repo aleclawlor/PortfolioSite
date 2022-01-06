@@ -13,18 +13,18 @@
 }
 
 #titleSeparator{
-    width: 8%;   
+    width:7%;   
     border: none;
     margin-left: 0;
     height: 4px;
-    background-color: var(--secondaryColor);
+    background-color: rgba(0, 0, 0, .5);
     margin-bottom: 20;
     padding: 0;
    
 }
 
 #name{
-    font-size: 130px;
+    font-size: 135px;
     font-weight: 400;
     color: var(--accent);
     text-transform: uppercase;
@@ -40,10 +40,9 @@
 }
 
 #title{
-    font-size: 28px;
-    letter-spacing: 1px;
+    font-size: 34px;
     font-weight: 400;
-    color: var(--textColor);
+    color: rgba(0, 0, 0, .6)
     
 }
 

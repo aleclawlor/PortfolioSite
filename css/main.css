@@ -12,9 +12,9 @@
     --textColor: #333 */
 
     --accent: #4056a1;
-    --backgroundColor: #ffffff;
+    --backgroundColor: #fff;
     --textColor: #000;
-    --secondaryColor: #73BFB8;
+    --secondaryColor: var(--accent);
     --font: proxima-nova, sans-serif;
 }
 

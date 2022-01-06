@@ -25,10 +25,10 @@
     text-transform: uppercase;
 }
 
-#navbar a:hover{
+#navbar a:not(#resumeButton):hover{
     cursor: pointer;
     transition: .25s;
-    color: #333;
+    color: rgba(0, 0, 0, .4);
 }
 
 #resumeButton {
