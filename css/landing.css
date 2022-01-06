@@ -3,19 +3,18 @@
     z-index: 5;
     width:70vw;
     text-align: left;
-    font-family: proxima-nova, sans-serif;
+    font-family: var(--font);
     transform: translate(0, -5vh);
 }
 
 #period{
     color: var(--textColor);
     font-size: 80px;
-    
 }
 
 #titleSeparator{
-    width: 10%;
-    background-color: var(--secondaryColor);    border: none;
+    width: 8%;   
+    border: none;
     margin-left: 0;
     height: 4px;
     background-color: var(--secondaryColor);
@@ -35,15 +34,15 @@
 
 #hello{
     font-size: 45px;
-    font-weight: 300;
-    color: var(--textColor);
+    font-weight: 400;
+    color: var(--accent);
     letter-spacing: 1px;
 }
 
 #title{
     font-size: 28px;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--textColor);
     
 }
