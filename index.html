@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="./css/projects.css" type="text/css">
     <link rel="stylesheet" href="./css/contact.css" type="text/css">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <script src="https://unpkg.com/typeit@8.1.0/dist/index.umd.js"></script>
     <script src="./js/menuBehavior.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -35,8 +39,8 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="fullPage" id="landing">
+        <div class="fullPage" id="landing">
+            <div id="landingContent">
                 <div id="headerSection">
                     <p 
                         data-aos="fade-down" 
@@ -64,6 +68,16 @@
                     Python and JavaScript Developer
                     </p>
                 </div>
+                <a
+                    href="#about"
+                    class="animate__animated animate__pulse animate__infinite infinite"
+                >
+                    <i 
+                        class="fas fa-chevron-down fa-3x"
+                        id="downPrompt"  
+                    >
+                    </i>
+                </a>
             </div>
         </div>
         <div class="row">
