@@ -87,7 +87,7 @@
 
     #downPrompt{
         color: var(--accent);
-        transform: translate(0, 10vh);
+        transform: translate(0, 5vh);
     }
 
 }
