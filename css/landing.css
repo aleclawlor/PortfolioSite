@@ -65,7 +65,7 @@
     
     #headerSection{
         width: 80vw;
-        transform: translate(0, -3vh);
+        transform: translate(0, -5vh);
     }
 
     #period{
@@ -87,7 +87,7 @@
 
     #downPrompt{
         color: var(--accent);
-        transform: translate(0, 15vh);
+        transform: translate(0, 10vh);
     }
 
 }
