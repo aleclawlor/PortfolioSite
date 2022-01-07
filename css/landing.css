@@ -17,8 +17,8 @@
 }
 
 #period{
-    color: var(--textColor);
-    font-size: 80px;
+    color: var(--accent);
+    font-size: 90px;
 }
 
 #titleSeparator{
@@ -64,7 +64,7 @@
 @media screen and (max-width: 750px){
     
     #headerSection{
-        width: 70vw;
+        width: 90vw;
     }
 
     #period{
@@ -72,8 +72,8 @@
     }
 
     #name{
-        font-size: 85px;
-        line-height: 80px;
+        font-size: 100px;
+        line-height: 105px;
     }
 
     #hello{
@@ -82,6 +82,11 @@
 
     #title{
         font-size: 28px;
+    }
+
+    #downPrompt{
+        color: var(--accent);
+        transform: translate(0, 15vh);
     }
 
 }
