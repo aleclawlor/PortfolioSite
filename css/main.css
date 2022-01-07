@@ -11,7 +11,7 @@
     --backgroundColor: #A0AECD;
     --textColor: #333 */
 
-    --accent: #4056a1;
+    --accent: #000;
     --backgroundColor: #fff;
     --textColor: #000;
     --secondaryColor: var(--accent);
