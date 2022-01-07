@@ -36,7 +36,7 @@
     font-size: 130px;
     font-weight: 400;
     width: fit-content;
-    color: var(--accent);
+    color: var(--textColor);
     text-transform: uppercase;
     letter-spacing: default;
     line-height: 140px;
