@@ -22,14 +22,13 @@
 }
 
 #titleSeparator{
-    width:7%;   
+    width:10%;   
     border: none;
     height: 4px;
     margin-left: 0;
-    background-color: var(--textColor);
+    background-color: var(--secondaryColor);
     margin-bottom: 20;
     padding: 0;
-    display: none;
    
 }
 
@@ -46,12 +45,12 @@
 #hello{
     font-size: 45px;
     font-weight: 400;
-    color: var(--accent);
+    color: var(--textColor);
     letter-spacing: 1px;
 }
 
 #title{
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 400;
     color: var(--textColor)
     

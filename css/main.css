@@ -1,8 +1,8 @@
 :root{
 
-    --accent: #000;
-    --backgroundColor: #fff;
-    --textColor: #000;
+    --accent: #6DAFFE;
+    --backgroundColor: #ffffff;
+    --textColor: #333;
     --secondaryColor: var(--accent);
     --font: proxima-nova, sans-serif;
 }
