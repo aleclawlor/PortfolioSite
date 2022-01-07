@@ -61,6 +61,36 @@
     transform: translate(0, 18vh);
 }
 
+@media screen and (max-width: 940px){
+    
+    #headerSection{
+        width: 80vw;
+    }
+
+    #period{
+        display: none;
+    }
+
+    #name{
+        font-size: 90px;
+        line-height: 105px;
+    }
+
+    #hello{
+        font-size: 35px;
+    }
+
+    #title{
+        font-size: 28px;
+    }
+
+    #downPrompt{
+        color: var(--accent);
+        transform: translate(0, 15vh);
+    }
+
+}
+
 @media screen and (max-width: 750px){
     
     #headerSection{
