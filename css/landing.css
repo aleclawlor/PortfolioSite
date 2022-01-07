@@ -33,7 +33,7 @@
 }
 
 #name{
-    font-size: 130px;
+    font-size: 125px;
     font-weight: 400;
     width: fit-content;
     color: var(--textColor);
@@ -87,6 +87,14 @@
 
     #downPrompt{
         color: var(--accent);
+        transform: translate(0, 15vh);
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    
+    #downPrompt{
         transform: translate(0, 5vh);
     }
 

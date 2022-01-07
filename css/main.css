@@ -73,3 +73,11 @@ body::-webkit-scrollbar {
     height: 10vh;
 }
 
+
+@media screen and (max-width: 500px){
+    
+    .fullPage{
+        overflow-x: hidden;
+    }
+
+}
