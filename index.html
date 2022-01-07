@@ -17,346 +17,365 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@200;400&family=Montserrat:wght@500&family=Open+Sans&family=Public+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/lft4bra.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/menuBehavior.js"></script>
+    <script type="module" src="./js/mailer.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css" type="text/css">
     <link rel="stylesheet" href="./css/landing.css" type="text/css">
     <link rel="stylesheet" href="./css/about.css" type="text/css">
     <link rel="stylesheet" href="./css/projects.css" type="text/css">
     <link rel="stylesheet" href="./css/contact.css" type="text/css">
     <link rel="stylesheet" href="./css/navbar.css" type="text/css">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <script src="https://unpkg.com/typeit@8.1.0/dist/index.umd.js"></script>
-    <script src="./js/menuBehavior.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="fullPage" id="landing">
-                <div id="landingContent">
-                    <div id="headerSection">
-                        <p 
-                            data-aos="fade-down" 
-                            data-aos-duration="1500" 
-                            id="hello">Hi, I'm
-                        </p>
-                        <p 
-                            data-aos="fade-right" 
-                            data-aos-duration="1500" 
-                            id="name"
-                        >
-                        Alec Lawlor
-                        <span id="period">.</span>
-                        </p>
-                        <hr 
-                            id="titleSeparator" 
-                            data-aos="fade-left"
-                            data-aos-duration="1500"
-                        />
-                        <p 
-                            data-aos="fade-up" 
-                            data-aos-duration="1500"
-                            id="title"
-                        >
-                        Python and JavaScript Developer
-                        </p>
-                    </div>
-                    <a
-                        
-                        href="#about"
-                        class="animate__animated animate__pulse animate__infinite infinite"
-                    >
-                        <i 
-                            class="fas fa-chevron-down fa-3x"
-                            id="downPrompt" 
-                            data-aos="fade-up" 
-                            data-aos-delay="700"
-                            data-aos-duration="1500" 
-                        >
-                        </i>
-                    </a>
-                </div>
+    <div id="navbar">
+        <a href="#landing">
+            01. Landing
+        </a>
+        <a href="#about">
+            02. About
+        </a>
+        <a href="#projects">
+            03. Projects
+        </a>
+        <a href="#contact">
+            04. Contact
+        </a>
+        <a href="./assets/files/Alexander_Lawlor_Resume_SWE.pdf" id="resumeButton" download>
+            Resume
+        </a>
+    </div>
+    <div class="fullPage" id="landing">
+        <div id="landingContent">
+            <div id="headerSection">
+                <p 
+                    data-aos="fade-down" 
+                    data-aos-duration="1500" 
+                    id="hello">Hi, I'm
+                </p>
+                <p 
+                    data-aos="fade-right" 
+                    data-aos-duration="1500" 
+                    id="name"
+                >
+                Alec Lawlor
+                <span id="period">.</span>
+                </p>
+                <hr 
+                    id="titleSeparator" 
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+                />
+                <p 
+                    data-aos="fade-up" 
+                    data-aos-duration="1500"
+                    id="title"
+                >
+                Python and JavaScript Developer
+                </p>
             </div>
+            <a
+                
+                href="#about"
+                class="animate__animated animate__pulse animate__infinite infinite"
+            >
+                <i 
+                    class="fas fa-chevron-down fa-3x"
+                    id="downPrompt" 
+                    data-aos="fade-up" 
+                    data-aos-delay="700"
+                    data-aos-duration="1500" 
+                >
+                </i>
+            </a>
         </div>
-        <div class="row">
-            <div id="navbar">
-                <a href="#landing">
-                    01. Landing
-                </a>
-                <a href="#about">
-                    02. About
-                </a>
-                <a href="#projects">
-                    03. Projects
-                </a>
-                <a href="#contact">
-                    04. Contact
-                </a>
-                <a href="./assets/files/Alexander_Lawlor_Resume_SWE.pdf" id="resumeButton" download>
-                    Resume
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="fullPage" id="about">
-                <div class="row">
-                    <h3 data-aos="fade-down" class="sectionHeader"><span>02.</span> About Me</h3>
-                </div>
-                <br></br>
-                <div class="row" id="split">
-                    <div class="col-50" id="aboutSectionColumnLeft" data-aos="fade-right" data-aos-duration="800">
+    </div>
+    <div class="pageSpacing"></div>
+    <div class="fullPage" id="about">
+            <h3 
+                data-aos="fade-down" 
+                class="sectionHeader"
+            >
+                <span>02.</span> About Me
+            </h3>
+                <!-- <div id="split">
+                    <div id="aboutSectionColumnLeft" data-aos="fade-right" data-aos-duration="800">
                         <div id="bioContainer">
                             <div id="profilePic"></div>
                         </div>
                     </div>
-                    <div class="col-50" id="aboutSectionColumnRight" data-aos="fade-left" data-aos-duration="800">
-                        <ul id="introList">
-                            <li>
-                                <div>
-                                    <i class="fas fa-chevron-right"></i>
-                                    <p>
-                                        Software Developer and Freelance Coder with a focus on development with Python and JavaScript
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <i class="fas fa-chevron-right"></i>
-                                    <p>
-                                        Work and project experience in the fields of Artificial Intelligence, Computer Vision, and Web Development
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <i class="fas fa-chevron-right"></i>
-                                    <p>
-                                        Part-time musician and music theorist with the ability to play the Piano and Guitar
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+                    <div id="aboutSectionColumnRight" data-aos="fade-left" data-aos-duration="800">
+                        <p>This is my paragraph</p>
                     </div>
-                </div>
-                <div id="educationSection" data-aos="fade-up" data-aos-duration="800">
-                    <ul id="educationList">
-                        <li class="accent">
-                            <i class="fas fa-graduation-cap fa-3x" id="icon"></i>
-                        </li>
-                        <li>
-                            <span>Boston College, <i>Chestnut Hill, MA</i></span>
-                            <p class="secondaryLine">Bachelor of Science in Computer Science, Minor in Mathematics</p>
-                            <p>Relevant courses include: Data Science, Algorithms, Data Visualization, Computer Vision, Data Analytics, Multivariable Calculus, Probability, Statistics, Computer Networks, and Combinatorics</p>
-                        </li>
-                    </ul>
-                </div>
-                <div id="workHistorySection" data-aos="fade-up" data-aos-duration="800">
-                    <ul id="workHistoryList">
-                        <li class="accent" id="icon">
-                            <i class="fas fa-briefcase fa-3x"></i>
-                        </li>
-                        <li>
-                            <span>Boston College, <i>Chestnut Hill, MA</i></span>
-                            <p class="secondaryLine">Teacher's Assistant, <i>Aug 2019 - Present</i></p>
-                            <p class="jobDescription">Teacher's Assistant for Computer Science 1 and 2, Data Visualization, and Network Science. Tasks include holding office hours to help students debug coding assignments and running weekly discussion groups related to the class.</p>
-                        </li>
-                        <li>
-                            <span>Commonwealth Financial Network, <i>Waltham, MA</i></span>
-                            <p class="secondaryLine">Software Engineering Intern, <i>May 2021 - Aug 2021</i></p>
-                            <p class="jobDescription">Responsible for rewriting legacy web applications into more a modern codebase, with a focus on developing React frontends and integrating backends written in C#</p>
-                        </li>
-                        <li>
-                            <span>Cariina Inc., <i>Boston, MA</i></span>
-                            <p class="secondaryLine">Software Engineering Intern, <i>Jan 2020 - Sep 2020</i></p>
-                            <p class="jobDescription">Led product development on SecureVision, an application that uses license plate recognition to let schools keep track of cars entering their campus. Tasks included writing a React/Node fullstack web application, writing Computer Vision pipelines, and developing and testing Deep Learning models in Python.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="pageSpacing"></div>
-            <div class="fullPage" id="projects">
-                <h3 data-aos="fade-down" class="sectionHeader"><span>03.</span> Projects</h3>
-              
-                    <div 
-                        class="leftShowcase" 
-                        data-aos="fade-right" 
-                        data-aos-duration="800"
-                        data-aos-delay="150"
-                    >
-                        <div id="projectLeft">
-                            <h3>Circa.Me (Beta)
-                                <a target="_blank" href="https://github.com/aleclawlor/BC-Social-Network" class="githubLink">
-                                    <i class="fab fa-github fa-1x"></i>
-                                </a>
-                            </h3>
-                            <p class="projectDescription">A social media application for Boston College Students that emphasizes making real-world social connections beyond the screen. 
-                                The app uses graph algorithms to allow users to visualize their social network in a way that reflects their real world status.
-                                Mobile application written in React Native, while the backend is written in Node with MongoDB as a database.
-                            </p>
-                            <p class="projectKeywords">
-                            React Native, Node.js, MongoDB, IOS Development   
-                            </p>
-                        </div>
-                        <div id="projectRight">
-                            <img id="circaImage" src="./assets//img/circa1.png"/>
-                        </div>
-                    </div>
-                    <div 
-                        class="rightShowcase" 
-                        data-aos="fade-left" 
-                        data-aos-duration="800"
-                        data-aos-delay="150"
-                    >
-                        <div class="col" id="projectLeft">
-                            <h3>SecureVision
-                                <a target="_blank" href="https://github.com/aleclawlor/SecureVisionFinal" class="githubLink">
-                                    <i class="fab fa-github fa-1x"></i>
-                                </a>
-                            </h3>
-                            <p class="projectDescription">A web application that uses license plate recongition to allow schools to track license plates of cars entering their schools.
-                                The application consists of three main components: a full-stack web application in React and Node, a Computer Vision pipeline in Python to segment license plates, and a Convolutional Neural Network in Pytorch for license plate character recognition.
-                            </p>
-                            <p class="projectKeywords">
-                                React, Node.js, MongoDB, Python, PyTorch, Deep Learning, Computer Vision
-                            </p>
-                        </div>
-                        <div class="col" id="projectRight">
-                            <img src="./assets/img/sv_preview.png"/>
-                        </div>
-                    </div>
-                    <div 
-                        class="leftShowcase" 
-                        data-aos="fade-right" 
-                        data-aos-duration="800"
-                        data-aos-delay="150"
-                    >
-                        <div class="col" id="projectLeft">
-                            <h3>Waste Classification
-                                <a target="_blank" href="https://github.com/aleclawlor/computer-vision-final-project" class="githubLink">
-                                    <i class="fab fa-github fa-1x"></i>
-                                </a>
-                            </h3>
-                            <p class="projectDescription">
-                                A Python web application that uses a Convolutional Neural Network (ResNet18) to perform object classification on waste held in front of a web camera. Components involve a simple Flask application, a Neural Network developed in Pytorch, and an image processing pipeline using OpenCV.
-                            </p>
-                            <p class="projectKeywords">
-                                Python, PyTorch, Deep Learning, Classification
-                                </p>
-                        </div>
-                        <div class="col" id="projectRight">
-                            <img src="./assets/img/cv_preview.png"/>
-                        </div>
-                    </div>
-                    <div id="otherProjectsSection" data-aos="fade-up" data-aos-duration="800">
-                        <!-- <h3 id="otherProjectsHeader">Other projects I've worked on include: </h3> -->
-                        <ul id="projectsList">
-                            <li>
-                                <span>BandMate
-                                    <a target="_blank" href="https://github.com/aleclawlor/BandMate" class="githubLink">
-                                        <i class="fab fa-github fa-1x"></i>
-                                    </a>
-                                </span>
-                                <p>A React web application that allows a user to visualize the soundwaves of audio playing from their computer. 
-                                    Includes an interface that allows the user to play songs from Spotify as well as voice commands with the Web Audio API in order to navigate the application.</p>
-                            </li>
-                            <li>
-                                <span>Distributed File Transfer
-                                    <a target="_blank" href="https://github.com/aleclawlor/FileTransfer" class="githubLink">
-                                        <i class="fab fa-github fa-1x"></i>
-                                    </a>
-                                </span>
-                                <p>A Java application which uses web sockets and multithreading to allow multiple clients to upload files to a broker server. Meanwhile, clients connected to the broker server are able to request files from the broker, thus giving users the ability to transfer files over a server.</p>
-                            </li>
-                            <li>
-                                <span>Affordable Housing Crisis Visualization 
-                                    <a class="githubLinkDisabled">
-                                        <i class="fab fa-github fa-1x"></i>
-                                    </a>
-                                </span>
-                                <p>A visual exploration of affordable housing data using d3.js. The project examines trends in weekly earnings and housing prices over time as well as a comparison of how living in different areas affects a person's ability to buy a home.</p>
-                            </li>
-                            <li>
-                                <span>Portfolio Website
-                                    <a target="_blank" href="https://github.com/aleclawlor/PortfolioSite" class="githubLink">
-                                        <i class="fab fa-github fa-1x"></i>
-                                    </a>
-                                </span>
-                                <p>My first iteration of a developer portfolio site. Written in HTML, CSS, and vanilla JavaScript to handle the "Contact" section. Hosted with Heroku. Future improvements to come.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="pageSpacing"></div>
-            <div class="fullPage" id="contact">
-                <!-- <div id="emailStatusAlert">
-                    <p id="emailStatusText">Email Sent Succesfully. Thanks for the Message!</p>
                 </div> -->
-                <div id="contactContainer">
-                    <h3 data-aos="fade-down" class="sectionHeader"><span>04.</span> Contact Me</h3>
-                    <div id="form" data-aos="fade-right" data-aos-duration="800">
-                        <div id="inputsContainer">
-                            <input 
-                                name="name" 
-                                type="text" 
-                                placeholder="Name"
-                                id="nameInput"
-                                value=""
-                                autocomplete="off"
-                            >
-                            <input 
-                                name="email" 
-                                type="email" 
-                                placeholder="Email"
-                                id="emailInput"
-                                autocomplete="off"
-                            >
-                            <textarea 
-                                placeholder="Your Message Here"
-                                rows="8" 
-                                cols="50" 
-                                id="emailBodyInput"
-                            ></textarea>
-                        </div>
-                        <div id="submitButtonContainer">
-                            <a 
-                                id="submitButton"
-                            >
-                                Submit 
-                            </a>
+                <div 
+                    id="expertiseContainer"
+                >
+                    <div 
+                        class="expertiseSection" 
+                        data-aos="fade-right"
+                    >
+                        <i class="material-icons">code</i>
+                        <br>
+                        <span>Software Development</span>
+                        <br>
+                        <div id="backgroundExplanationsContainer">
+                            <br>
+                            <p>Extensive experience in Software Development with Python and JavaScript, including projects in Computer Vision and Full-Stack Web Development</p>
+                            <br>
+                            <p>Deep understanding of Data Sturctures, Algorithms, and best practices for writing high quality software</p>
+                            <br>
+                            <p>Experience in deploying applications, including knowledge of technoglogies such as Docker and AWS</p>
+                            <br>
                         </div>
                     </div>
-                    <div id="socialsList" data-aos="fade-left" data-aos-duration="800">
-                        <a target="_blank" href="https://www.linkedin.com/in/aleclawlor/">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a target="_blank" href="https://www.instagram.com/aleclawlor/">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a target="_blank" href="https://www.facebook.com/alec.lawlor.3">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                        <a target="_blank" href="https://twitter.com/alawlor18">
-                            <i class="fab fa-twitter"></i>
-                        </a>
+                    <div 
+                        class="expertiseSection"
+                        data-aos="fade-left"
+                    >
+                        <i class="material-icons">code</i>
+                        <br>
+                        <span >Data Science & AI</span>
+                        <br>
+                        <div id="backgroundExplanationsContainer">
+                            <br>
+                            <p>Experience in developing, deploying, and evaluating Machine Learning and Deep Learning models in Python and R</p>
+                            <br>
+                            <p>Data visualization and analysis with d3.js and Python libraries such as Numpy, Pandas, and scikit-learn</p>
+                            <br>
+                            <p>Extensive knowledge of underlying mathematical concepts such as Statistics, Multivariable Calculus, and Probability</p>
+                            <br>
+                        </div>
                     </div>
                 </div>
+            <div id="educationSection" data-aos="fade-right">
+                <ul id="educationList">
+                    <li class="accent">
+                        <i class="fas fa-graduation-cap fa-3x" id="icon"></i>
+                    </li>
+                    <li>
+                        <span>Boston College, <i>Chestnut Hill, MA</i></span>
+                        <p class="secondaryLine">Bachelor of Science in Computer Science, Minor in Mathematics</p>
+                        <p>Relevant courses include: Data Science, Algorithms, Data Visualization, Computer Vision, Data Analytics, Multivariable Calculus, Probability, Statistics, Computer Networks, and Combinatorics</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="workHistorySection" data-aos="fade-left">
+                <ul id="workHistoryList">
+                    <li class="accent" id="icon">
+                        <i class="fas fa-briefcase fa-3x"></i>
+                    </li>
+                    <li>
+                        <span>Boston College, <i>Chestnut Hill, MA</i></span>
+                        <p class="secondaryLine">Teacher's Assistant, <i>Aug 2019 - Present</i></p>
+                        <p class="jobDescription">Teacher's Assistant for Computer Science 1 and 2, Data Visualization, and Network Science. Tasks include holding office hours to help students debug coding assignments and running weekly discussion groups related to the class.</p>
+                    </li>
+                    <li>
+                        <span>Commonwealth Financial Network, <i>Waltham, MA</i></span>
+                        <p class="secondaryLine">Software Engineering Intern, <i>May 2021 - Aug 2021</i></p>
+                        <p class="jobDescription">Responsible for rewriting legacy web applications into more a modern codebase, with a focus on developing React frontends and integrating backends written in C#</p>
+                    </li>
+                    <li>
+                        <span>Cariina Inc., <i>Boston, MA</i></span>
+                        <p class="secondaryLine">Software Engineering Intern, <i>Jan 2020 - Sep 2020</i></p>
+                        <p class="jobDescription">Led product development on SecureVision, an application that uses license plate recognition to let schools keep track of cars entering their campus. Tasks included writing a React/Node fullstack web application, writing Computer Vision pipelines, and developing and testing Deep Learning models in Python.</p>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="pageSpacing"></div>
+    <div class="fullPage" id="projects">
+        <h3 
+            data-aos="fade-down" 
+            class="sectionHeader"
+        >
+            <span>03.</span> Projects
+        </h3>
+        
+            <div 
+                class="leftShowcase" 
+                data-aos="fade-right" 
+                data-aos-duration="800"
+                data-aos-delay="150"
+            >
+                <div id="projectLeft">
+                    <h3>Circa.Me (Beta)
+                        <a target="_blank" href="https://github.com/aleclawlor/BC-Social-Network" class="githubLink">
+                            <i class="fab fa-github fa-1x"></i>
+                        </a>
+                    </h3>
+                    <p class="projectDescription">A social media application for Boston College Students that emphasizes making real-world social connections beyond the screen. 
+                        The app uses graph algorithms to allow users to visualize their social network in a way that reflects their real world status.
+                        Mobile application written in React Native, while the backend is written in Node with MongoDB as a database.
+                    </p>
+                    <p class="projectKeywords">
+                    React Native, Node.js, MongoDB, IOS Development   
+                    </p>
+                </div>
+                <div id="projectRight">
+                    <img id="circaImage" src="./assets//img/circa1.png"/>
+                </div>
+            </div>
+            <div 
+                class="rightShowcase" 
+                data-aos="fade-left" 
+                data-aos-duration="800"
+                data-aos-delay="150"
+            >
+                <div id="projectLeft">
+                    <h3>SecureVision
+                        <a target="_blank" href="https://github.com/aleclawlor/SecureVisionFinal" class="githubLink">
+                            <i class="fab fa-github fa-1x"></i>
+                        </a>
+                    </h3>
+                    <p class="projectDescription">A web application that uses license plate recongition to allow schools to track license plates of cars entering their schools.
+                        The application consists of three main components: a full-stack web application in React and Node, a Computer Vision pipeline in Python to segment license plates, and a Convolutional Neural Network in Pytorch for license plate character recognition.
+                    </p>
+                    <p class="projectKeywords">
+                        React, Node.js, MongoDB, Python, PyTorch, Deep Learning, Computer Vision
+                    </p>
+                </div>
+                <div id="projectRight">
+                    <img src="./assets/img/sv_preview.png"/>
+                </div>
+            </div>
+            <div 
+                class="leftShowcase" 
+                data-aos="fade-right" 
+                data-aos-duration="800"
+                data-aos-delay="150"
+            >
+                <div id="projectLeft">
+                    <h3>Waste Classification
+                        <a target="_blank" href="https://github.com/aleclawlor/computer-vision-final-project" class="githubLink">
+                            <i class="fab fa-github fa-1x"></i>
+                        </a>
+                    </h3>
+                    <p class="projectDescription">
+                        A Python web application that uses a Convolutional Neural Network (ResNet18) to perform object classification on waste held in front of a web camera. Components involve a simple Flask application, a Neural Network developed in Pytorch, and an image processing pipeline using OpenCV.
+                    </p>
+                    <p class="projectKeywords">
+                        Python, PyTorch, Deep Learning, Classification
+                        </p>
+                </div>
+                <div id="projectRight">
+                    <img src="./assets/img/cv_preview.png"/>
+                </div>
+            </div>
+            <div 
+                id="otherProjectsSection" 
+                data-aos="fade-down" 
+                data-aos-duration="800">
+                <!-- <h3 id="otherProjectsHeader">Other projects I've worked on include: </h3> -->
+                <ul id="projectsList">
+                    <li>
+                        <span>BandMate
+                            <a target="_blank" href="https://github.com/aleclawlor/BandMate" class="githubLink">
+                                <i class="fab fa-github fa-1x"></i>
+                            </a>
+                        </span>
+                        <p>A React web application that allows a user to visualize the soundwaves of audio playing from their computer. 
+                            Includes an interface that allows the user to play songs from Spotify as well as voice commands with the Web Audio API in order to navigate the application.</p>
+                    </li>
+                    <li>
+                        <span>Distributed File Transfer
+                            <a target="_blank" href="https://github.com/aleclawlor/FileTransfer" class="githubLink">
+                                <i class="fab fa-github fa-1x"></i>
+                            </a>
+                        </span>
+                        <p>A Java application which uses web sockets and multithreading to allow multiple clients to upload files to a broker server. Meanwhile, clients connected to the broker server are able to request files from the broker, thus giving users the ability to transfer files over a server.</p>
+                    </li>
+                    <li>
+                        <span>Affordable Housing Crisis Visualization 
+                            <a class="githubLinkDisabled">
+                                <i class="fab fa-github fa-1x"></i>
+                            </a>
+                        </span>
+                        <p>A visual exploration of affordable housing data using d3.js. The project examines trends in weekly earnings and housing prices over time as well as a comparison of how living in different areas affects a person's ability to buy a home.</p>
+                    </li>
+                    <li>
+                        <span>Portfolio Website
+                            <a target="_blank" href="https://github.com/aleclawlor/PortfolioSite" class="githubLink">
+                                <i class="fab fa-github fa-1x"></i>
+                            </a>
+                        </span>
+                        <p>My first iteration of a developer portfolio site. Written in HTML, CSS, and vanilla JavaScript to handle the "Contact" section. Hosted with Heroku. Future improvements to come.</p>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="pageSpacing"></div>
+    <div class="fullPage" id="contact">
+        <div id="contactContainer">
+            <h3 
+                data-aos="fade-down" 
+                class="sectionHeader"
+            ><span>04.</span> Contact Me
+            </h3>
+            <div 
+                id="form" 
+                data-aos="fade-right" 
+                data-aos-duration="800"
+            >
+                <div id="inputsContainer">
+                    <input 
+                        name="name" 
+                        type="text" 
+                        placeholder="Name"
+                        id="nameInput"
+                        value=""
+                        autocomplete="off"
+                    >
+                    <input 
+                        name="email" 
+                        type="email" 
+                        placeholder="Email"
+                        id="emailInput"
+                        autocomplete="off"
+                    >
+                    <textarea 
+                        placeholder="Your Message Here"
+                        rows="8" 
+                        cols="50" 
+                        id="emailBodyInput"
+                    >
+                    </textarea>
+                </div>
+                <div id="submitButtonContainer">
+                    <a 
+                        id="submitButton"
+                    >
+                        Submit 
+                    </a>
+                </div>
+            </div>
+            <div 
+                id="socialsList" 
+                data-aos="fade-left" 
+                data-aos-duration="800"
+            >
+                <a target="_blank" href="https://www.linkedin.com/in/aleclawlor/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/aleclawlor/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/alec.lawlor.3">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a target="_blank" href="https://twitter.com/alawlor18">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
         </div>
     </div>
 </body>
 <script>
     AOS.init();
 </script>
-<script type="module" src="./js/mailer.js"></script>
 </html>

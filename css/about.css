@@ -2,7 +2,49 @@
     padding-top: 10vh;
 }
 
-#split{
+#expertiseContainer{
+    width: 65vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.expertiseSection{
+    height: 100%;
+    width: 48%;
+    background-color: transparent;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, .2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.expertiseSection i{
+    color: var(--accent);
+    font-size: 55px;
+}
+
+.expertiseSection span{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#backgroundExplanationsContainer{
+    width: 80%;
+    height: 40%
+}
+
+#backgroundExplanationsContainer p{
+    font-size: 17px;
+}
+
+/* #split{
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -21,10 +63,9 @@
     background-repeat: no-repeat;
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0, .5);
-}
+} 
 
 #aboutSectionColumnLeft{
-    /* background-color: red; */
     width: 50vw;
     display: flex;
     justify-content: center;
@@ -47,7 +88,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: blue; */
     width: 70%
 }
 
@@ -70,7 +110,7 @@
 #introList li div i{
     margin-right: 20px;
     color: var(--secondaryColor)
-}
+} */
 
 #workHistorySection{
     width: 65vw;
@@ -136,11 +176,27 @@
     font-size: 18px;
 }
 
+@media screen and (max-width: 1200px){
+    
+    #expertiseContainer{
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    .expertiseSection{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+}
+
 /* Some responsive layout cleanup */
 @media screen and (max-width: 900px){
+
     #split{
         flex-direction: column;
     }
+
 
     #aboutSectionColumnLeft{
         /* background-color: red; */
@@ -157,4 +213,11 @@
         margin-top: 5%;
     }
 
+}
+
+@media screen and (max-width: 720px){
+    #expertiseContainer{
+        flex-direction: column;
+        height: 150vh;
+    }
 }

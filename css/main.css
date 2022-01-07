@@ -2,10 +2,11 @@
 
     --accent: #6DAFFE;
     --backgroundColor: #ffffff;
-    --textColor: #333;
+    --textColor: #000;
     --secondaryColor: var(--accent);
     --font: proxima-nova, sans-serif;
 }
+
 
 html{
     margin: 0;
@@ -23,7 +24,6 @@ body {
     color: var(--textColor);
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     -moz-user-select: none;
    -khtml-user-select: none;
    -webkit-user-select: none;
@@ -41,20 +41,23 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 100vw;
-    background-image: url("");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
 }
 
+.fullPage::-webkit-scrollbar {
+    display: none;
+}
 
 .sectionHeader{
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 0px;
     font-weight: 400;
-    font-family: brandon-grotesque, sans-serif;
+    font-family: var(--font);
 }
 
 
@@ -71,13 +74,4 @@ body::-webkit-scrollbar {
     background-color: var(--backgroundColor);
     width: 100vw;
     height: 10vh;
-}
-
-
-@media screen and (max-width: 500px){
-    
-    .fullPage{
-        overflow-x: hidden;
-    }
-
 }
